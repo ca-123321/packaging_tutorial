@@ -9,3 +9,4 @@ envdev
 *.pyc
 .DS_Store
 test.txt
+dist/

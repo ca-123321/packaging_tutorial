@@ -5,8 +5,13 @@ build-backend = "hatchling.build"
 [project]
 name = "mycoolpackage_cccaaa"
 authors = [
-    name="Henry George", email="henrygeorge@example.com" },
+    {name = "Henry George", email = "henrygeorge@example.com"},
+    {name = "Person Human", email = "personhuman@example.com" },
 ]
+maintainers = [
+    {name = "Person Human", email = "personhuman@example.com"},
+]
+
 description = "This package lets you add 1 to a given number"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -17,5 +22,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = ""
-"Bug Tracker" = ""
+"Homepage" = "https://github.com/chris-anderson-code/packaging_tutorial"
+"Bug Tracker" = "https://github.com/chris-anderson-code/packaging_tutorial/issues"
